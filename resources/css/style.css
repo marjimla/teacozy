@@ -1,0 +1,149 @@
+
+/* Universal Styles */
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,
+h3,
+h4 {
+  padding: 10px;
+  margin: 0px;
+  display: block;
+}
+
+
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  margin-top: 0px;
+  padding: 0 10px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+
+/* Main Content Container */
+
+.main {
+  width: 1200px;
+  margin: 0 auto 0 auto;
+  padding-top: 69px;
+}
+
+
+/* Mission */
+
+#mission {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.title {
+  background-color: black;
+  width: 100%;
+}
+
+
+/* Selection */
+
+#featured {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: 0 auto;
+}
+
+.selection {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-content {
+  padding: 5px;
+}
+
+.image-content img {
+  height: 200px;
+  weight: 300px;
+  margin: 10px;
+  display: block;
+}
+
+
+/* Locations */
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  padding-top: 70px;
+  margin: 0 auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.spots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.spot {
+  height: auto;
+  flex-basis: 280px;
+  background-color: black;
+  padding: 10px;
+  margin: 5px 20px;
+  opacity: 1.0;
+}
+
+.contact {
+  height: 200px;
+}
+
+
+/* Footer */
+
+.copy {
+  margin-left: 20px;
+  text-align: left;
+  padding: 1.67em 0;
+  font-size: 0.83em;
+  font-weight: bold;
+}
